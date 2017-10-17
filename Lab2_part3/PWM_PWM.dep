@@ -1,0 +1,11 @@
+Dependencies for Project 'PWM', Target 'PWM': (DO NOT MODIFY !)
+F (.\startup.s)(0x59E3F456)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_PWM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "TM4C1294NCPDT SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x59E3F455)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PWM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="524" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C1294NCPDT-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (PLL.h)(0x59E3F456)
+F (.\PWM.c)(0x59E3F456)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PWM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="524" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C1294NCPDT-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+F (.\PWMTestMain.c)(0x59E4D75F)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_PWM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="524" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C1294NCPDT-o .\pwmtestmain.o --omf_browse .\pwmtestmain.crf --depend .\pwmtestmain.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (PLL.h)(0x59E3F456)
+I (PWM.h)(0x59E3F456)
